@@ -1,0 +1,596 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*body{
+    background-color: #4c5669;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    font-family:Snell Roundhand, cursive ;
+}*/
+
+
+@media (max-width:1920px){
+    .header_{
+        background: url(/САЙТ/image/1626858335_8-kartinkin-com-p-fon-dlya-avtomagazina-krasivo-13.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        height: 950px ;  
+        width:2165px ;}
+
+
+    .h22{
+        position: absolute;
+        left: 990px;
+        font-size:65px;
+    }
+
+    /*сигналка*/    
+    .info01{
+        position: absolute;
+        font-size: 20px;
+        top: 370px;
+    }
+    .img01 img{
+        height: 350px ;
+        width: 300px ;
+        object-fit: cover;
+        border-radius: 7px;
+        margin: 15px 95px 22px 70px;
+    }
+
+    .product001{
+        position:absolute;
+        left:90px;
+        top: 1050px ;
+    }
+    
+    /*ремонт электрооборудование */
+    .info02{
+        position: absolute;
+        font-size: 17px;
+        top: 370px;
+    }
+    .img02 img{
+        height: 350px;
+        width: 300px;
+        object-fit: cover;
+        border-radius: 7px;
+        margin: 15px 95px 22px 70px ;
+    }
+    .product002{
+        position:absolute;
+        left:1650px;
+        top: 1050px ;
+    }
+    /*эбу*/
+    .info03{
+        position: absolute;
+        font-size: 17px;
+        top: 370px;
+    }
+    .img03 img{
+        height: 350px;
+        width: 300px;
+        object-fit: cover;
+        border-radius: 7px;
+        margin: 15px 95px 22px 70px ;
+    }
+    .product003{
+        position:absolute;
+        left:1250px;
+        top: 1050px ;
+    }
+    /*чип-тюнинг*/
+    .info04{
+        position: absolute;
+        font-size: 17px;
+        top: 370px;
+    }
+    .img04 img{
+        height: 350px;
+        width: 300px;
+        object-fit: cover;
+        border-radius: 7px;
+        margin: 15px 95px 22px 70px ;
+    }
+    .product004{
+        position:absolute;
+        left:850px;
+        top: 1050px ;
+    }
+
+    /*srs----*/
+    .info05{
+        position: absolute;
+        font-size: 17px;
+        top: 370px;
+    }
+    .img05{
+        margin-bottom: 50px;
+      }
+    .img05 img{
+        height: 350px;
+        width: 300px;
+        object-fit: cover;
+        border-radius: 7px;
+        margin: 15px 95px 22px 70px; 
+    }
+    .product005{
+        position:absolute;
+        left:480px;
+        top: 1050px ;
+    }
+}
+
+
+
+@media (max-width:1336px){
+
+
+    .header_{
+        background: url(/САЙТ/image/1626858335_8-kartinkin-com-p-fon-dlya-avtomagazina-krasivo-13.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        height: 1150px; 
+        width:2165px;
+      }
+    
+    .prod_by{
+        position: absolute;
+        top: 200px;
+    }
+
+    .h22{
+        position: absolute;
+        left: 990px;
+        font-size:65px;
+    }
+
+    /*сигналка*/    
+    .info01{
+        position: absolute;
+        font-size: 23px;
+        top: 390px;
+    }
+    .img01 img{
+        height: 385px ;
+        width: 335px ;
+        object-fit: cover;
+        border-radius: 7px;
+        margin: 15px 95px 22px 70px;
+    }
+
+    .product001{
+        position:absolute;
+        left:90px;
+        top: 1050px ;
+    }
+    span.price{
+        font-size: 24px;
+    }
+    
+    /*ремонт электрооборудование */
+    .info02{
+        position: absolute;
+        font-size: 23px;
+        top: 390px;
+    }
+    .img02 img{
+        height: 385px ;
+        width: 335px ;
+        object-fit: cover;
+        border-radius: 7px;
+        margin: 15px 95px 22px 70px ;
+    }
+    .product002{
+        position:absolute;
+        left:1650px;
+        top: 1050px ;
+    }
+    /*эбу*/
+    .info03{
+        position: absolute;
+        font-size: 23px;
+        top: 390px;
+    }
+    .img03 img{
+        height: 385px ;
+        width: 335px ;
+        object-fit: cover;
+        border-radius: 7px;
+        margin: 15px 95px 22px 70px ;
+    }
+    .product003{
+        position:absolute;
+        left:1250px;
+        top: 1050px ;
+    }
+    /*чип-тюнинг*/
+    .info04{
+        position: absolute;
+        font-size: 23px;
+        top: 390px;
+    }
+    .img04 img{
+        height: 385px ;
+        width: 335px ;
+        object-fit: cover;
+        border-radius: 7px;
+        margin: 15px 95px 22px 70px ;
+    }
+    .product004{
+        position:absolute;
+        left:850px;
+        top: 1050px ;
+    }
+
+    /*srs----*/
+    .info05{
+        position: absolute;
+        font-size: 23px;
+        top: 390px;
+    }
+    .img05{
+        margin-bottom: 50px;
+      }
+    .img05 img{
+        height: 385px ;
+        width: 335px ;
+        object-fit: cover;
+        border-radius: 7px;
+        margin: 15px 95px 22px 70px; 
+    }
+    .product005{
+        position:absolute;
+        left:480px;
+        top: 1050px ;
+    }
+
+
+
+
+}
+
+@media (max-width:1075px){
+    .prod_by{
+        position: absolute;
+        top: 120px;
+    }
+
+    h2{
+        text-align: center;
+        font-size: 100px;
+        position:absolute;
+        left: 555px;
+    }
+
+    .header_{
+        height: 1100px; 
+    }
+
+
+}
+
+@media (max-width:736px){
+    .header_{
+        background: url(/САЙТ/image/1626858335_8-kartinkin-com-p-fon-dlya-avtomagazina-krasivo-13.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        height: 1150px;  
+        width:2165px;
+    }
+
+    .h22{
+        position: absolute;
+        left: 990px;
+        font-size:65px
+    }
+
+    /*сигналка*/    
+    .info01{
+        position: absolute;
+        font-size: 35px;
+        top: 560px;
+    }
+    .img01 img{
+        height: 555px ;
+        width: 485px ;
+        object-fit: cover;
+        border-radius: 7px;
+        margin: 15px 95px 22px 70px;
+    }
+
+    .product001{
+        position:absolute;
+        left:90px;
+        top: 1050px ;
+    }
+    span.price{
+        font-size: 35px;
+    }
+    
+    /*ремонт электрооборудование */
+    .info02{
+        position: absolute;
+        font-size: 35px;
+        top: 560px;
+    }
+    .img02 img{
+        height: 555px ;
+        width: 485px ;
+        object-fit: cover;
+        border-radius: 7px;
+        margin: 15px 95px 22px 70px ;
+    }
+    .product002{
+        position:absolute;
+        left:1650px;
+        top: 1050px ;
+    }
+    /*эбу*/
+    .info03{
+        position: absolute;
+        font-size: 35px;
+        top: 560px;
+    }
+    .img03 img{
+        height: 555px ;
+        width: 485px ;
+        object-fit: cover;
+        border-radius: 7px;
+        margin: 15px 95px 22px 70px ;
+    }
+    .product003{
+        position:absolute;
+        left:1250px;
+        top: 1050px ;
+    }
+    /*чип-тюнинг*/
+    .info04{
+        position: absolute;
+        font-size: 35px;
+        top: 560px;
+    }
+    .img04 img{
+        height: 385px ;
+        width: 335px ;
+        object-fit: cover;
+        border-radius: 7px;
+        margin: 15px 95px 22px 70px ;
+    }
+    .product004{
+        position:absolute;
+        left:850px;
+        top: 1050px ;
+    }
+
+    /*srs----*/
+    .info05{
+        position: absolute;
+        font-size: 35px;
+        top: 560px;
+    }
+    .img05{
+        margin-bottom: 50px;
+      }
+    .img05 img{
+        height: 385px ;
+        width: 335px ;
+        object-fit: cover;
+        border-radius: 7px;
+        margin: 15px 95px 22px 70px; 
+    }
+    .product005{
+        position:absolute;
+        left:480px;
+        top: 1050px ;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media (max-width:420px){
+
+    .h22{
+        position: absolute;
+        font-size: 120px;
+        text-align: center;
+        top: 920px;
+        left:332px;
+    }
+
+
+    .header_{
+        background: url(/САЙТ/image/1626858335_8-kartinkin-com-p-fon-dlya-avtomagazina-krasivo-13.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        height: 2750px ;  
+        width:2165px ;
+    }
+
+
+    /*сигналка */
+    .price6{
+        font-size: 35px ;
+    }
+    .info01{
+        position:absolute;
+        top:800px;
+        font-size:50px;
+    }
+
+    .product001{
+        font-size:50px;
+        position:absolute;
+        left:300px;
+        top:9300px;
+    }
+    .img01 img{
+        height: 800px ;
+        width:750px;
+    }
+
+    /*ремонт электро*/
+    .price2{
+        font-size: 49px;
+    }
+    .info02{
+        position:absolute;
+        top:800px;
+        font-size:50px;
+    }
+
+
+    .img02 img{
+        height: 800px ;
+        width:750px;
+    }
+
+    .product002{
+        font-size:450px;
+        position:absolute;
+        left:300px;
+        top:2700px;
+    }
+
+
+    /*ремонт эбу */
+    .price3{
+        position: absolute;
+        font-size: 49px;
+    }
+
+    .info03{
+        position:absolute;
+        top:800px;
+        font-size:50px;
+    }
+
+    .product003{
+        font-size:50px;
+        position:absolute;
+        left:300px;
+        top:4000px;
+    }
+
+    .img03 img{
+        height: 800px ;
+        width:750px;
+        border-radius: 7px;
+    }
+
+    /*чип-тюнинг*/
+    .price4{
+        position: absolute;
+        font-size: 49px;
+    }
+
+    .info04{
+        position:absolute;
+        top:800px;
+        font-size:50px;
+    }
+
+    .product004{
+        font-size:50px;
+        position:absolute;
+        left:300px;
+        top:5300px;
+    }
+
+    .img04 img{
+        height: 800px ;
+        width:750px;
+        border-radius: 7px;
+    }
+    /*ремонт srs */
+    .price5{
+        position: absolute;
+        font-size: 49px;
+    }
+
+    .info05{
+        position:absolute;
+        top:800px;
+        font-size:50px;
+    }
+
+    .product005{
+        font-size:50px;
+        position:absolute;
+        left:300px;
+        top:6600px;
+    }
+
+    .img05 img{
+        height: 800px ;
+        width:750px;
+        border-radius: 7px;
+    }
+
+    /*установка линзованной оптики*/
+    .price6{
+        position: absolute;
+        font-size: 49px;
+        top:1000px;
+    }
+
+    .info06{
+        position:absolute;
+        top:800px;
+        font-size:50px;
+    }
+
+    .product006{
+        font-size:50px;
+        position:absolute;
+        left:300px;
+        top:7900px;
+    }
+
+    .img06 img{
+        height: 800px ;
+        width:750px;
+        border-radius: 7px;
+    }
+
+    #btn6{        
+        position:absolute;
+        font-size:45px;
+        top:990px;
+        left:500px;
+        width:230px;
+        height:80px
+    }
+
+
+
+
+
+    #btn{
+        position: absolute;
+        left: 520px;
+        width:230px;
+        height:80px
+    }
+    #text_btm{
+        font-size: 40px;
+    }
+
+
+}

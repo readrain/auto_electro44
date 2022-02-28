@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #4c5669;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family:Snell Roundhand, cursive ;
+    overflow-x: hidden;
+}
+
+.header_{
+  background: url(/САЙТ/image/1626858335_8-kartinkin-com-p-fon-dlya-avtomagazina-krasivo-13.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 950px auto;  
+  width:2165px;
+}
+/*бошка сайта-------------*/
+.header_parallax{
+  font-family: Snell Roundhand, cursive;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: rgb(224, 11, 11);
+  text-align: center;
+  left: -215px ;
+  top: 320px ;
+  position: relative;
+}
+
+
+
+
+
+/*-------------КОНЕЦ--------------*/
+
+
+/*  УПРАВЛЕНИЕ КАРТИНКОЙ ТОВАРА ------*/
+
+
+
+
+
+/*сигналка*/
+.product001{
+  position: absolute;
+  display: flex;
+  left: -19px auto;
+  top: 1050px auto;
+}
+
+/*электроника*/
+.product002{
+  position: absolute;
+  display: flex;
+  left: 290px auto;
+  top: 1050px auto;
+}
+/*ремонт эбу*/
+.product003{
+  position: absolute;
+  display: flex;
+  left: 950px auto;
+  top: 1050px auto;
+}
+/*чип-тюнинг*/
+.product004{
+  position: absolute;
+  display: flex;
+  left: 1270px auto;
+  top: 1050px auto;
+}
+/*ремонт srs*/
+.product005{
+  position: absolute;
+  display: flex;
+  left: 615px auto;
+  top: 1050px auto;
+}
+/*установка линзованной оптики*/
+.product006{
+  position: absolute;
+  display: flex;
+  left: 615px auto;
+  top: 900px auto;
+}
+
+
+
+/*СИГНАЛКА*/
+.img01{
+    margin-bottom: 50px;
+}
+.img01 img{
+    height: 300px auto;
+    width: 250px auto;
+    object-fit: cover;
+    border-radius: 7px;
+    margin: 15px 95px 22px 70px;
+}
+
+
+.info01 h3{
+    font-size: 17px auto;
+    font-family:Snell Roundhand, cursive ;
+    margin-bottom: 0;
+    margin: 15px 35px 25px 79px; 
+}
+.info-price01{
+    font-family:Snell Roundhand, cursive ;
+    font-size: 16px auto; 
+    margin: 15px 59px 45px 90px ;
+}
+
+/*ЗАМЕНА ЭЛЕКТРОННИКИ*/
+.img02{
+  margin-bottom: 50px;
+}
+.img02 img{
+  height: 300px auto;
+  width: 250px auto;
+  object-fit: cover;
+  border-radius: 7px;
+  margin: 15px 95px 22px 70px ;
+}
+
+
+.info02 h3{
+  font-size: 17px auto;
+  font-family:Snell Roundhand, cursive ;
+  margin-bottom: 0;
+  margin: 15px 35px 25px 79px; 
+}
+.info-price02{
+  font-family:Snell Roundhand, cursive ;
+  font-size: 16px;
+  margin: 15px 59px 45px 90px; 
+}
+/*ремонт эбу */
+
+.img03{
+  margin-bottom: 50px;
+}
+.img03 img{
+  height: 300px auto;
+  width: 250px auto;
+  object-fit: cover;
+  border-radius: 7px;
+  margin: 15px 95px 22px 70px;
+}
+
+
+.info03 h3{
+  font-size: 17px auto;
+  font-family:Snell Roundhand, cursive ;
+  margin-bottom: 0;
+  margin: 15px 35px 25px 79px; 
+}
+.info-price03{
+  font-family:Snell Roundhand, cursive ;
+  font-size: 16px;
+  margin: 15px 59px 45px 90px; 
+}
+
+/*чип-тюнинг*/
+.img04{
+  margin-bottom: 50px;
+}
+.img04 img{
+  height: 300px auto;
+  width: 250px auto;
+  object-fit: cover;
+  border-radius: 7px;
+  margin: 15px 95px 22px 70px; 
+}
+
+
+.info04 h3{
+  font-size: 17px auto;
+  font-family:Snell Roundhand, cursive ;
+  margin-bottom: 0;
+  margin: 15px 35px 25px 79px ;
+}
+.info-price04{
+  font-family:Snell Roundhand, cursive ;
+  font-size: 16px;
+  margin: 15px 59px 45px 90px;
+}
+
+/*ремонт srs*/
+.img05{
+  margin-bottom: 50px;
+}
+.img05 img{
+  height: 300px auto;
+  width: 250px auto;
+  object-fit: cover;
+  border-radius: 7px;
+  margin: 15px 95px 22px 70px; 
+}
+
+
+.info05 h3{
+  font-size: 17px auto;
+  font-family:Snell Roundhand, cursive ;
+  margin-bottom: 0;
+  margin: 15px 35px 25px 79px ;
+}
+.info-price05{
+  font-family:Snell Roundhand, cursive ;
+  font-size: 16px;
+  margin: 15px 59px 45px 90px;
+}
+
+/*установка линзованной оптики*/
+.img06{
+  margin-bottom: 50px;
+}
+.img06 img{
+  height: 300px auto;
+  width: 250px auto;
+  object-fit: cover;
+  border-radius: 7px;
+  margin: 15px 95px 22px 70px; 
+}
+.info06 h3{
+  font-size: 17px auto;
+  font-family:Snell Roundhand, cursive ;
+  margin-bottom: 0;
+  margin: 15px 35px 25px 79px ;
+}
+.info-price06{
+  font-family:Snell Roundhand, cursive ;
+  font-size: 16px;
+  margin: 15px 59px 45px 90px;
+}
+
+
+
+
+/*УСЛУГИ --------------------------- страница товара----------------------------*/
+/*-------------------------------------------------------------------------------*/
+/*СИГНАЛКА-------*/
+.signaling{
+  padding-left:90px;
+  padding-top: 170px;
+  width: 220px;
+  padding-bottom: 40px;
+}
+.header_sign_text1{
+  font-size: 35px;
+  font-family: Snell Roundhand, cursive;
+  
+}
+
+.txt001{
+  height: 100px;
+  position: relative;
+  left: 520px;
+  top: -280px;
+  font-size: 29px ;
+  font-family:  Snell Roundhand, cursive;
+}
+
+/*електрика*/
+.electrical{
+  height: 190px;
+  position: absolute;
+  left:50px; 
+  top: 250px;
+}
+.txt002{
+  position: absolute;
+  font-family: Snell Roundhand, cursive;
+  padding-left: 530px;
+  top: 200px;
+  font-size: 25px;
+}
+/*srs*/
+.SRS{
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.txt003{
+  position: absolute;
+  font-family: Snell Roundhand, cursive;
+  padding-left: 530px;
+  top: 200px;
+  font-size: 25px;
+}
+
+/*эбу*/
+.ECU{
+  position: absolute;
+  top: 200px;
+  left: 55px;
+}
+.txt004{
+  font-size: 40px;
+  height: 100px;
+  position: absolute;
+  left: 520px;
+  top: 200px;
+  font-size: 29px ;
+  font-family:  Snell Roundhand, cursive; 
+  color: black;
+}
+/*чип-тюн*/
+.chip_tun{
+  position: absolute;
+  left: 50px;
+  top: 250px;
+  width: 400px;
+}
+.header_text002{
+  font-family:Snell Roundhand, cursive ;
+  font-size: 30px;
+  position: absolute;
+  left: 800px;
+  top: 50px;
+}
+.glavnay1{
+  position:absolute;
+  left:70px;
+  top:50px;
+}
+.txt005{
+  height: 100px;
+  position: absolute;
+  left: 520px;
+  top: 250px;
+  font-size: 29px ;
+  font-family:  Snell Roundhand, cursive; 
+  color: black;
+}
+
+
+
+
+
+/*НЕ ЛЕЗЬ ТУДА!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*КНОПКИ-----------------------------------------------------------------------*/
+
+
+a{
+    text-decoration: none;
+    
+  }
+  .custom-btn {
+    width: 130px;
+      height: 40px;
+      color: #fff;
+      border-radius: 5px;
+      padding: 10px 25px;
+      font-family: 'Lato', sans-serif;
+      font-weight: 500;
+      background: transparent;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative;
+      display: inline-block;
+       box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+       7px 7px 20px 0px rgba(0,0,0,.1),
+       4px 4px 5px 0px rgba(0,0,0,.1);
+      outline: none;
+    }
+    .btn-5 {
+      width: 130px;
+      height: 40px;
+      line-height: 42px;
+      padding: 0;
+      border: none;
+      background: rgb(255,27,0);
+    background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
+    }
+    .btn-5:hover {
+      color: #f0094a;
+      background: transparent;
+       box-shadow:none;
+    }
+    .btn-5:before,
+    .btn-5:after{
+      content:'';
+      position:absolute;
+      top:0;
+      right:0;
+      height:2px;
+      width:0;
+      background: #f0094a;
+      box-shadow:
+       -1px -1px 5px 0px #fff,
+       7px 7px 20px 0px #0003,
+       4px 4px 5px 0px #0002;
+      transition:400ms ease all;
+    }
+    .btn-5:after{
+      right:inherit;
+      top:inherit;
+      left:0;
+      bottom:0;
+    }
+    .btn-5:hover:before,
+    .btn-5:hover:after{
+      width:100%;
+      transition:800ms cubic-bezier(0, 1.05, 1, -0.28) all;
+    }
+    .custom-btn btn-5{
+    display: inline-block; 
+    background: #8C959D; 
+    color: #fff; 
+    padding: 1rem 1.5rem; 
+    text-decoration: none; 
+    border-radius: 3px; 
+    }
+
+
+/*АДАПТАЦИЯ----------------------------------------*/
+
+
+
+
+
+
